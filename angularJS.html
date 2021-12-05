@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+	<input ng-model="name">
+	<p>{{name}}</p>
+
+
+</body>
+<script>
+	var app = angular.module("myApp", []);
+	app.controller('myCtrl', function($scope){
+		
+	});
+</script>
+
+</html>
+
+
+<!-- no parameter from ng-model needed, as data already bind in application data for controller to receive   -->
+
+
+
+
+
+
+
+<!-- issue: add field doesn't clear up after adding -->
+
+
